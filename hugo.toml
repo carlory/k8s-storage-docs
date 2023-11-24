@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "Kubernetes Storage"
 
 # Language settings
 contentDir = "content/en"
@@ -59,17 +59,17 @@ languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.en.params]
-title = "Goldydocs"
-description = "A Docsy example site"
+title = "Kubernetes Storage"
+description = "This site contains all the documentation related to Kubernetes Storage."
 
-[languages.cn]
-languageName ="Chinese"
-contentDir = "content/cn"
-[languages.cn.params]
-title = "Goldydocs"
-description = "Kubernetes 存储文档"
-time_format_default = "2006.01.02"
-time_format_blog = "2006.01.02"
+# [languages.cn]
+# languageName ="Chinese"
+# contentDir = "content/cn"
+# [languages.cn.params]
+# title = "Goldydocs"
+# description = "Kubernetes 存储文档"
+# time_format_default = "2006.01.02"
+# time_format_blog = "2006.01.02"
 
 [markup]
   [markup.goldmark]
@@ -157,14 +157,14 @@ sidebar_search_disable = false
 [params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
-no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it! Please <a href="https://github.com/carlory/k8s-storage-docs/issues/new">tell me how I can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/carlory/k8s-storage-docs/issues/new">tell me how I can improve</a>.'
 
 # Adds a reading time to the top of each doc.
 # If you want this feature, but occasionally need to remove the Reading time from a single page,
 # add "hide_readingtime: true" to the page's front matter
 [params.ui.readingtime]
-enable = false
+enable = true
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
