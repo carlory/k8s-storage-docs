@@ -1,79 +1,55 @@
 ---
 title: Contribution Guidelines
 weight: 10
-description: How to contribute to the docs
+description: Storage Special Interest Group
 ---
 
-{{% pageinfo %}}
-These basic sample guidelines assume that your Docsy site is deployed using Netlify and your files are stored in GitHub. You can use the guidelines "as is" or adapt them with your own instructions: for example, other deployment options, information about your doc project's file structure, project-specific review guidelines, versioning guidelines, or any other information your users might find useful when updating your site. [Kubeflow](https://github.com/kubeflow/website/blob/master/README.md) has a great example.
+## Preflight
 
-Don't forget to link to your own doc repo rather than our example site! Also make sure users can find these guidelines from your doc repo README: either add them there and link to them from this page, add them here and link to them from the README, or include them in both locations.
-{{% /pageinfo %}}
+We love having folks help in any capacity! We recommend you start by reading the overall [Kubernetes contributor's guide](https://github.com/kubernetes/community/blob/master/contributors/guide)
 
-We use [Hugo](https://gohugo.io/) to format and generate our website, the
-[Docsy](https://github.com/google/docsy) theme for styling and site structure,
-and [Netlify](https://www.netlify.com/) to manage the deployment of the site.
-Hugo is an open-source static site generator that provides us with templates,
-content organisation in a standard directory structure, and a website generation
-engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps them up into a website.
 
-All submissions, including submissions by project members, require review. We
-use GitHub pull requests for this purpose. Consult
-[GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
-information on using pull requests.
+## Meetings
 
-## Quick start with Netlify
+*Joining the [developer mailing list](https://groups.google.com/forum/#!forum/kubernetes-sig-storage) for the group will typically add invites for the following meetings to your calendar.*
+* Regular CSI Implementation meeting: [Monday and Wednesdays at 10:00 PT (Pacific Time)](https://zoom.us/j/614261834) (weekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=10:00&tz=PT%20%28Pacific%20Time%29).
+  * [Meeting notes and Agenda](https://docs.google.com/document/d/1_hvq3nleqQEYatH9V_Gfep39jMzaFJRSN2ioA0PFq-Q/edit#).
+* Regular SIG Meeting: [Thursdays at 9:00 PT (Pacific Time)](https://zoom.us/j/614261834) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=9:00&tz=PT%20%28Pacific%20Time%29).
+  * [Meeting notes and Agenda](https://docs.google.com/document/d/1-8KEG8AjAgKznS9NFm3qWqkGyCHmvU6HVl0sk5hwoAE/edit?usp=sharing).
+  * [Meeting recordings](https://www.youtube.com/watch?v=Eh7Qa7KOL8o&list=PL69nYSiGNLP02-BMqJdfFgGxYQ4Nb-2Qq).
+* Regular SIG Issue Triage meeting: [Tuesdays at 10:00 PT (Pacific Time)](https://zoom.us/j/614261834) (weekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=9:00&tz=PT%20%28Pacific%20Time%29).
 
-Here's a quick guide to updating the docs. It assumes you're familiar with the
-GitHub workflow and you're happy to use the automated preview of your doc
-updates:
+## We're working on
 
-1. Fork the [Goldydocs repo](https://github.com/google/docsy-example) on GitHub.
-1. Make your changes and send a pull request (PR).
-1. If you're not yet ready for a review, add "WIP" to the PR name to indicate
-  it's a work in progress. (**Don't** add the Hugo property
-  "draft = true" to the page front matter, because that prevents the
-  auto-deployment of the content preview described in the next point.)
-1. Wait for the automated PR workflow to do some checks. When it's ready,
-  you should see a comment like this: **deploy/netlify — Deploy preview ready!**
-1. Click **Details** to the right of "Deploy preview ready" to see a preview
-  of your updates.
-1. Continue updating your doc and pushing your changes until you're happy with
-  the content.
-1. When you're ready for a review, add a comment to the PR, and remove any
-  "WIP" markers.
+* [Planning spreadsheet](https://docs.google.com/spreadsheets/d/1t4z5DYKjX2ZDlkTpCnp18icRAQqOE85C1T1r2gqJVck/edit#gid=604003098)
+* [Kubernetes Enhancements](https://github.com/kubernetes/enhancements/issues?q=is%3Aopen+is%3Aissue+label%3Asig%2Fstorage)
+* [Kubernetes Issue Triage](https://github.com/orgs/kubernetes/projects/146)
 
-## Updating a single page
+## Ramping up on Kubernetes Storage
 
-If you've just spotted something you'd like to change while using the docs, Docsy has a shortcut for you:
+Keep in mind that these artifacts reflect the state of the art at the time they were created. The Kubernetes project is constantly evolving, and these artifacts may not reflect the current state of the art. 
 
-1. Click **Edit this page** in the top right hand corner of the page.
-1. If you don't already have an up to date fork of the project repo, you are prompted to get one - click **Fork this repository and propose changes** or **Update your Fork** to get an up to date version of the project to edit. The appropriate page in your fork is displayed in edit mode.
-1. Follow the rest of the [Quick start with Netlify](#quick-start-with-netlify) process above to make, preview, and propose your changes.
+| Date | Title | Link | Description |
+| --- | --- | --- | --- |
+| 2023 January 23 | PV/PVC Controller Deep Dive | [Slides](https://docs.google.com/presentation/d/1XI_XzxlAYF6dqRfQQsoBd-UWRHssH2Ts5KwK5NDIMgg/edit) | A walk through of the PV controller source code following the Dynamic Volume Provisioning with CSI scenario |
+| 2022 November 9 | Kubernetes SIG Storage Deep Dive | [Video](https://www.youtube.com/watch?v=_XXn3-yDZA0) | An overview and update of SIG Storage by Xing Yang, VMware & Mauricio Poppe, Google at KubeCon NA 2022. |
+| 2022 May 16 | Kubernetes SIG Storage Deep Dive | [Video](https://www.youtube.com/watch?v=dsEeQqRSg74) | An overview and update of SIG Storage by Xing Yang, VMware & Jan Šafránek, Red Hat at KubeCon Europe 2022. |
+| 2020 November 20 | Intro & Deep Dive: Kubernetes SIG-Storage | [Video](https://www.youtube.com/watch?v=rnCdvWToPPM&t=2s) | An overview and update of SIG Storage by Xing Yang and Michelle Au at KubeCon/CloudNativeCon NA 2020. |
+| 2020 November 20 | Intro & Deep Dive: Kubernetes SIG-Storage | [Video](https://www.youtube.com/watch?v=rnCdvWToPPM&t=2s) | An overview and update of SIG Storage by Xing Yang and Michelle Au at KubeCon/CloudNativeCon NA 2020. |
+| 2020 November 20 | Intro & Deep Dive: Kubernetes Data Protection WG | [Video](https://www.youtube.com/watch?v=g8HEQnLVo04) | An overview of Data Protection WG by Xing Yang and Xiangqian Yu at KubeCon/CloudNativeCon NA 2020. |
+| 2020 November 18 | Beyond File and Block Storage in Kubernetes | [Video](https://www.youtube.com/watch?v=Y3GgJb71Cwo) | An introduction of Container Object Storage Interface (COSI) by Sidhartha Mani at KubeCon/CloudNativeCon NA 2020. |
+| 2019 May 23 | Kubernetes Storage 101 | [Video](https://www.youtube.com/watch?v=_qfSzrPn9Cs) | An overview of usage of persistent storage in Kubernetes by David Zhu and Jan Šafránek at KubeCon/CloudNativeCon EU 2019.|
+| 2018 May 03 | SIG Storage Intro | [Video](https://www.youtube.com/watch?v=GvrTl2T-Tts&list=PLj6h78yzYM2N8GdbjmhVU65KYm_68qBmo&index=164&t=0s) | An overview of SIG Storage By Saad Ali at KubeCon/CloudNativeCon EU 2018. |
+| 2018 May 04 | Kubernetes Storage Lingo 101 | [Video](https://www.youtube.com/watch?v=uSxlgK1bCuA&t=0s&index=300&list=PLj6h78yzYM2N8GdbjmhVU65KYm_68qBmo) | An overview of various terms used in Kubernetes storage and what they mean by Saad Ali at KubeCon/CloudNativeCon EU 2018.|
+| 2017 May 18 | Storage Classes & Dynamic Provisioning in Kubernetes |[Video](https://youtu.be/qktFhjJmFhg)| Intro to the basic Kubernetes storage concepts for users (direct volume reference, PV/PVC, and dynamic provisioning). |
+| 2017 March 29 | Dynamic Provisioning and Storage Classes in Kubernetes |[Blog post](https://kubernetes.io/blog/2017/03/dynamic-provisioning-and-storage-classes-kubernetes/)| Overview of Dynamic Provisioning and Storage Classes in Kubernetes at GA. |
+| 2017 March 29 | How Kubernetes Storage Works | [Slides](https://docs.google.com/presentation/d/1Yl5JKifcncn0gSZf3e1dWspd8iFaWObLm9LxCaXZJIk/edit?usp=sharing) | Overview for developers on how Kubernetes storage works for KubeCon/CloudNativeCon EU 2017 by Saad Ali
+| 2017 February 17 | Overview of Dynamic Provisioning for SIG Apps | [Video](https://youtu.be/NXUHmxXytUQ?t=10m33s) | Overview of Storage Classes and Dynamic Provisioning for SIG Apps
+| 2016 October 7 | Dynamic Provisioning and Storage Classes in Kubernetes |[Blog post](https://kubernetes.io/blog/2016/10/dynamic-provisioning-and-storage-in-kubernetes/)| Overview of Dynamic Provisioning and Storage Classes in Kubernetes at Beta. |
+| 2016 July 26 | Overview of Basic Volume for SIG Apps | [Video](https://youtu.be/DrLGxkFdDNc?t=11m19s) | Overview of Basic Volume for SIG Apps |
+| 2016 March 25 | The State of State | [Video](https://www.youtube.com/watch?v=jsTQ24CLRhI&index=6&list=PLosInM-8doqcBy3BirmLM4S_pmox6qTw3) | The State of State at KubeCon/CloudNativeCon EU 2016 by Matthew Bates |
+| 2016 March 25 | Kubernetes Storage 101 | [Video](https://www.youtube.com/watch?v=ZqTHe6Xj0Ek&list=PLosInM-8doqcBy3BirmLM4S_pmox6qTw3&index=38) | Kubernetes Storage 101 at KubeCon/CloudNativeCon EU 2016 by Erin Boyd |
 
-## Previewing your changes locally
 
-If you want to run your own local Hugo server to preview your changes as you work:
-
-1. Follow the instructions in [Getting started](/docs/getting-started) to install Hugo and any other tools you need. You'll need at least **Hugo version 0.45** (we recommend using the most recent available version), and it must be the **extended** version, which supports SCSS.
-1. Fork the [Goldydocs repo](https://github.com/google/docsy-example) repo into your own project, then create a local copy using `git clone`. Don’t forget to use `--recurse-submodules` or you won’t pull down some of the code you need to generate a working site.
-
-    ```
-    git clone --recurse-submodules --depth 1 https://github.com/google/docsy-example.git
-    ```
-
-1. Run `hugo server` in the site root directory. By default your site will be available at http://localhost:1313/. Now that you're serving your site locally, Hugo will watch for changes to the content and automatically refresh your site.
-1. Continue with the usual GitHub workflow to edit files, commit them, push the
-  changes up to your fork, and create a pull request.
-
-## Creating an issue
-
-If you've found a problem in the docs, but you're not sure how to fix it yourself, please create an issue in the [Goldydocs repo](https://github.com/google/docsy-example/issues). You can also create an issue about a specific page by clicking the **Create Issue** button in the top right hand corner of the page.
-
-## Useful resources
-
-* [Docsy user guide](https://www.docsy.dev/docs/): All about Docsy, including how it manages navigation, look and feel, and multi-language support.
-* [Hugo documentation](https://gohugo.io/documentation/): Comprehensive reference for Hugo.
-* [Github Hello World!](https://guides.github.com/activities/hello-world/): A basic introduction to GitHub concepts and workflow.
 
 
