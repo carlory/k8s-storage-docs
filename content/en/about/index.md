@@ -1,35 +1,19 @@
 ---
-title: About Goldydocs
+title: About Website
 linkTitle: About
 menu: {main: {weight: 10}}
 ---
 
-{{% blocks/cover title="About Goldydocs" image_anchor="bottom" height="auto" %}}
+{{% blocks/cover title="About Website" image_anchor="bottom" height="auto" %}}
 
-A sample site using the Docsy Hugo theme.
+A place to learn about Kubernetes storage. Everything from basic concepts to deep dives into implementation and beyond.
 {.mt-5}
 
 {{% /blocks/cover %}}
 
 {{% blocks/lead %}}
 
-Goldydocs is a sample site using the [Docsy](https://github.com/google/docsy)
-Hugo theme that shows what it can do and provides you with a template site
-structure. It’s designed for you to clone and edit as much as you like. See the
-different sections of the documentation and site for more ideas.
+It's not official Kubernetes website, but I hope it will be useful to you.
 
+Contributions are welcome!
 {{% /blocks/lead %}}
-
-{{% blocks/section %}}
-
-# This is another section
-{.text-center}
-
-{{% /blocks/section %}}
-
-{{% blocks/section %}}
-
-# This is another section
-{.text-center}
-
-{{% /blocks/section %}}
