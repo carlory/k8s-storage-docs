@@ -18,12 +18,14 @@ We love having folks help in any capacity! We recommend you start by reading the
   * [Meeting notes and Agenda](https://docs.google.com/document/d/1-8KEG8AjAgKznS9NFm3qWqkGyCHmvU6HVl0sk5hwoAE/edit?usp=sharing).
   * [Meeting recordings](https://www.youtube.com/watch?v=Eh7Qa7KOL8o&list=PL69nYSiGNLP02-BMqJdfFgGxYQ4Nb-2Qq).
 * Regular SIG Issue Triage meeting: [Tuesdays at 10:00 PT (Pacific Time)](https://zoom.us/j/614261834) (weekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=9:00&tz=PT%20%28Pacific%20Time%29).
+  * [Meeting notes and Agenda](https://docs.google.com/document/d/1n-dXXvCbHsPfO1yrKwT1qoC80KhsxHYKbRdChdzqeXY/edit#)
 
 ## We're working on
 
 * [Planning spreadsheet](https://docs.google.com/spreadsheets/d/1t4z5DYKjX2ZDlkTpCnp18icRAQqOE85C1T1r2gqJVck/edit#gid=604003098)
 * [Kubernetes Enhancements](https://github.com/kubernetes/enhancements/issues?q=is%3Aopen+is%3Aissue+label%3Asig%2Fstorage)
 * [Kubernetes Issue Triage](https://github.com/orgs/kubernetes/projects/146)
+* [Test Grid](https://testgrid.k8s.io/sig-storage-csi-ci)
 
 ## Ramping up on Kubernetes Storage
 
