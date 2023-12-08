@@ -34,7 +34,7 @@ It contains the following storage-related admission plugins:
 
 ### kube-controller-manager
 
-* the PV/PVC binder controller is responsible for binding PVCs to PVs and creating PVs if needed.
+* the [PV/PVC binder controller](../binder-controller) is responsible for binding PVCs to PVs and creating PVs if needed.
 * the attach/detach controlller is responsible for attaching and detaching volumes to/from nodes.
 * the expand controller is responsible for expanding PVs when PVCs are resized.
 * PV/PVC protection controller is responsible for protecting PVs and PVCs from being deleted when they are in use.
