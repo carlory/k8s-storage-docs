@@ -6,7 +6,7 @@ description: Storage Special Interest Group
 
 ## Preflight
 
-We love having folks help in any capacity! We recommend you start by reading the overall [Kubernetes contributor's guide](https://github.com/kubernetes/community/blob/master/contributors/guide)
+We love having folks help in any capacity! We recommend you start by reading the overall [Kubernetes contributor's guide](https://www.kubernetes.dev/docs/)
 
 
 ## Meetings
@@ -51,7 +51,3 @@ Keep in mind that these artifacts reflect the state of the art at the time they 
 | 2016 July 26 | Overview of Basic Volume for SIG Apps | [Video](https://youtu.be/DrLGxkFdDNc?t=11m19s) | Overview of Basic Volume for SIG Apps |
 | 2016 March 25 | The State of State | [Video](https://www.youtube.com/watch?v=jsTQ24CLRhI&index=6&list=PLosInM-8doqcBy3BirmLM4S_pmox6qTw3) | The State of State at KubeCon/CloudNativeCon EU 2016 by Matthew Bates |
 | 2016 March 25 | Kubernetes Storage 101 | [Video](https://www.youtube.com/watch?v=ZqTHe6Xj0Ek&list=PLosInM-8doqcBy3BirmLM4S_pmox6qTw3&index=38) | Kubernetes Storage 101 at KubeCon/CloudNativeCon EU 2016 by Erin Boyd |
-
-
-
-
